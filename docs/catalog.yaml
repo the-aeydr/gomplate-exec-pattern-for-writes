@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gomplate-exec-pattern-for-writes
+  description: Using `Template.Exec`` to facilitate dynamic templating with gomplate
+  tags:
+    - gomplate
+    - gomplate
+  annotations:
+    displayName: Dynamic templating facilitated through gomplate
+    github.com/project-slug: the-aeydr/gomplate-exec-pattern-for-writes
+spec:
+  type: documentation
+  lifecycle: experimental
